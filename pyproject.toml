@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-skill-handler"
+version = "0.1.0"
+description = "Generic skill handler for OpenFang and OpenClaw agent skills"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    {name = "Wolfgang Nagele"},
+]
+keywords = ["openfang", "openclaw", "agent", "skill"]
+
+[project.urls]
+Repository = "https://github.com/wnagele/agent-skill-handler"
